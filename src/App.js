@@ -5,6 +5,8 @@ import Greetings from './Greetings';
 import Random from './Random';
 import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
+import Ratting from './Ratting';
+
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

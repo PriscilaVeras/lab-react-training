@@ -8,7 +8,7 @@ function CreditCard(props) {
         style={{ background: props.bgColor, color: props.color }}
       >
         <div class="container-cards">
-          <p class="card-text">{props.type}</p>
+          <p class="card-text-type">{props.type}</p>
           <p class="card-text">{numberCard}</p>
           <p class="card-text">
             Expires {props.expirationMonth} {props.expirationYear}

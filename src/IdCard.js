@@ -1,9 +1,9 @@
 function IdCard(props) {
   return (
     <div>
-      <div className="card mb-3  ">
+      <div className="card mb-3 container">
         <div className="row ">
-          <div className="col-md-1 ">
+          <div className="col-md-2 ">
             <img src={props.picture} className=" img-idCard" />
           </div>
           <div className="person col">
