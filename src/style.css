@@ -5,9 +5,8 @@
 .card-text {
   font-weight: bold;
 }
-.img-idCard {
-  height: 30vh;
-  width: auto;
+.container-idCard {
+  border: 1px solid black;
 }
 .container-greetings {
   border: 1px solid black;
