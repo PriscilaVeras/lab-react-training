@@ -6,6 +6,10 @@ import Random from './Random';
 import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
 import Rating from './Rating';
+import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
+import Dice from './Dice';
+import NumbersTable from './NumbersTable';
 
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -93,6 +97,26 @@ function App() {
         <Rating>3</Rating>
         <Rating>4</Rating>
         <Rating>5</Rating>
+      </div>
+      <div>
+        <h1>LikeButton</h1>
+        <LikeButton /> <LikeButton />
+      </div>
+      <div>
+        <h1>ClickablePicture</h1>
+        <ClickablePicture
+          img="/img/persons/maxence.png"
+          imgClicked="/img/persons/maxence-glasses.png"
+        />
+      </div>
+      <div>
+        <h1>Dice</h1>
+        <Dice />
+      </div>
+
+      <div>
+        <h1>Numbers Table</h1>
+        <NumbersTable limit={12} />
       </div>
     </div>
   );

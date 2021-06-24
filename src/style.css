@@ -38,3 +38,14 @@
 .card-text-type {
   position: left;
 }
+.NumberTable {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.NumberTableElement {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+}

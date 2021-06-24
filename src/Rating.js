@@ -1,17 +1,19 @@
 function Rating(props) {
   let stars = Math.round(props.children);
   let result = '';
-  for (let j = 0; j < stars; j++) {
-    for (let i = 0; i < stars; i++) {
-      if (i < stars) {
-        result = `&#9734`;
-      } else {
-        result = `	&#9733`;
-      }
+
+  for (let i = 0; i < 5; i++) {
+    if (i < stars) {
+      result += `★`;
+    } else {
+      result += `	☆`;
     }
   }
-
-  return <div className="container">{result}</div>;
+  return (
+    <div className="m-3">
+      <span>{result} </span>
+    </div>
+  );
 }
 
 export default Rating;
